@@ -1,0 +1,9 @@
+       
+                DICTIONARY APP USING JAVASCRIPT - API
+    AUDIO API LINK
+
+https://media.merriam-webster.com/soundc11 <- Link Will be in description
+Website link for API will be in the description
+
+API from -> https://dictionaryapi.com/
+you need to registed to the website to get the API

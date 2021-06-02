@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'QuickSand';
+    --webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'QuickSand';
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 1152px;
+    /* for mobile devices | its resposive */
+    max-width: 90%;
+    margin: 0 auto;
+}
+nav {
+    /* you can select any color from VSCODE color */
+    background: #3373fd;
+    color: #fff;
+    padding: 1rem 0;
+}
+section.input {
+    padding-top: 130px;
+}
+section h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.form__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.form__wrap .input__wrap {
+    padding-top: 30px;
+    max-width: 400px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__wrap .input__wrap #input {
+    padding: 9px;
+    border: 1.2px solid #ccc;
+    border-radius: 6px;
+    max-width: 400px;
+    width: 90%;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    color: #222;
+}
+
+.form__wrap .input__wrap #search {
+    padding: 10px 25px;
+    background: #3373fd;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+section.data {
+    max-width: 600;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.loading {
+    /* we will make it display block in javascript */
+    display: none;
+}
+section.data p.defi {
+    font-size: 20px;
+    color: #2d3748;
+    line-height: 1.8;
+    max-width: 630px;
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.not__found {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/* Here we will add stylings of javascript CSS classes */
+.suggested {
+    background: #3373fdbc;
+    color: #fff;
+    font-weight: 400;
+    padding: 2px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
